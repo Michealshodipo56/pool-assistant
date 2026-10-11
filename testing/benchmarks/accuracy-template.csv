@@ -1,0 +1,1 @@
+case_id,mode,shot_type,predicted_collision_x,predicted_collision_y,observed_collision_x,observed_collision_y,position_error_px,angular_error_deg,outcome_agreement,capture_ms,detection_ms,physics_ms,render_ms,end_to_end_ms,device,notes
