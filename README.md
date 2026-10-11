@@ -62,3 +62,7 @@ The phone-specific APK is produced at `app\build\outputs\apk\debug\app-arm64-v8a
 - Offset lines: check device rotation and avoid split-screen during the first test; record the screen resolution and insets for a fixture.
 - Service killed: inspect `adb logcat`; some OEMs require an explicit background/battery exemption.
 
+## Verification status
+
+The portable C++ host tests and six JVM tests pass. The ARM64 debug APK is about 35 MB; the universal debug APK is about 153 MB. On an itel A665L (Android 13), the bubble, scrollable landscape menu, and live line rendering work, but the user reported incorrect trajectories. Screenshot-based instrumentation checks rejected a loading screen but found cue-ball and blue-table detection failures; further detector changes are built but not yet phone-tested. Accuracy, thermal behavior, and battery use are not verified. See [testing status](docs/testing/verification.md) for the exact checklist.
+
