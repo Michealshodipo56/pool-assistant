@@ -23,4 +23,9 @@ This project does **not** automate taps or shots, use Accessibility, modify the 
 
 3. Set the SDK path if Android Studio has not created it:
 
+   ```powershell
+   "sdk.dir=$($env:LOCALAPPDATA -replace '\\','\\')\\Android\\Sdk" | Set-Content .\local.properties
+   ```
+
+4. Build and test:
 
