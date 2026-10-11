@@ -44,3 +44,6 @@ Use `testing/benchmarks/accuracy-template.csv`; keep separate rows/aggregates fo
 7. Run direct, cushion, and multi-ball sets separately for Basic and All Lines. Include weak/strong shots and explicitly exclude or tag visible spin until spin is modeled.
 8. Observe the in-app diagnostics plus Android Studio Profiler for 10 minutes. Record thermal throttling, battery drain, memory trend, capture/detection/physics/render/end-to-end latency, and processed fps.
 
+## Production-readiness assessment
+
+
