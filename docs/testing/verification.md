@@ -17,3 +17,6 @@ Covered scenarios: direct equal-mass collision, cushion rebound direction, three
 
 `testDebugUnitTest` completed successfully: 6 tests, 0 failures, 0 errors, 0 skipped. These cover vector normalization, 0°/90° coordinate transforms, calibration regression, and invalid cushion gain.
 
+`assembleDebugAndroidTest` completed successfully, so the instrumentation test APK compiles and packages. `connectedDebugAndroidTest` has not run.
+
+
