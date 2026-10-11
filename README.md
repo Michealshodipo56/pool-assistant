@@ -4,3 +4,7 @@ A native Android application that captures a user-approved screen-sharing sessio
 
 ## What is implemented
 
+- Jetpack Compose control/settings UI with Hilt and DataStore.
+- Android foreground service with the Android 14+ `mediaProjection` service type.
+- Explicit MediaProjection consent for each session; capture stops and predictions invalidate when permission is revoked.
+
