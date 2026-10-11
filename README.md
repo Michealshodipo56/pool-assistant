@@ -69,4 +69,7 @@ The portable C++ host tests and six JVM tests pass. The ARM64 debug APK is about
 ## Documentation
 
 - [Architecture](docs/architecture/overview.md)
+- [8 Ball Pool APK analysis](docs/game-analysis/8ball-pool.md)
+- [Verification and accuracy](docs/testing/verification.md)
+- [Adding a game](docs/architecture/adding-games.md)
 
