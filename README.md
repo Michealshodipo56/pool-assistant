@@ -32,4 +32,8 @@ This project does **not** automate taps or shots, use Accessibility, modify the 
    ```powershell
    $env:JAVA_HOME = (Resolve-Path .\.tooling\jdk17\jdk-17.0.20.1+1).Path
    .\gradlew.bat testDebugUnitTest
+   .\gradlew.bat assembleDebug
+   ```
+
+   The project-local JDK path above exists in this workspace. In a fresh checkout, point `JAVA_HOME` to any installed JDK 17. Run `.\gradlew.bat connectedDebugAndroidTest` after connecting an Android device.
 
