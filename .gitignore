@@ -1,0 +1,12 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+**/.cxx/
+local.properties
+.tooling/
+.wrapper-bootstrap/
+*.iml
+hs_err_pid*.log
+*.apk
+
