@@ -39,4 +39,8 @@ Use `testing/benchmarks/accuracy-template.csv`; keep separate rows/aggregates fo
 2. Test permission denial first: deny overlay, then deny capture. Verify no overlay/capture remains and the UI explains the state.
 3. Start again, grant permissions, open 8 Ball Pool, and record phone model, OS, resolution, refresh rate, orientation, and game version.
 4. In the floating menu, select Mark Table Corners, tap top-left/top-right/bottom-right/bottom-left inside the cushions, and confirm the guide disappears after the fourth tap. Check Undo/Cancel and re-marking after rotation. Verify bubble drag/snap near all four edges, menu touch isolation, gameplay touches outside the controls, background/foreground, capture-token revocation, and Stop Assistant cleanup.
+5. Collect at least 20 consented frames for each targeted resolution/layout: clear rack, sparse table, partial obstruction, absent cue, and visually busy UI. Keep frames local.
+6. For accuracy, screen-record repeatable shots. Annotate observed collision points and paths, export predicted events, and fill the CSV. Report median, 90th percentile, maximum, and sample count—not only an average.
+7. Run direct, cushion, and multi-ball sets separately for Basic and All Lines. Include weak/strong shots and explicitly exclude or tag visible spin until spin is modeled.
+8. Observe the in-app diagnostics plus Android Studio Profiler for 10 minutes. Record thermal throttling, battery drain, memory trend, capture/detection/physics/render/end-to-end latency, and processed fps.
 
