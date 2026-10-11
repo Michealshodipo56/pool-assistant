@@ -36,4 +36,7 @@ Use `testing/benchmarks/accuracy-template.csv`; keep separate rows/aggregates fo
 ## Physical-device test procedure
 
 1. Build/install using the README commands and start Logcat.
+2. Test permission denial first: deny overlay, then deny capture. Verify no overlay/capture remains and the UI explains the state.
+3. Start again, grant permissions, open 8 Ball Pool, and record phone model, OS, resolution, refresh rate, orientation, and game version.
+4. In the floating menu, select Mark Table Corners, tap top-left/top-right/bottom-right/bottom-left inside the cushions, and confirm the guide disappears after the fourth tap. Check Undo/Cancel and re-marking after rotation. Verify bubble drag/snap near all four edges, menu touch isolation, gameplay touches outside the controls, background/foreground, capture-token revocation, and Stop Assistant cleanup.
 
