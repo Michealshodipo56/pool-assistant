@@ -33,4 +33,7 @@ The supplied gameplay screenshots establish one brown-cloth fixture, but no labe
 
 Use `testing/benchmarks/accuracy-template.csv`; keep separate rows/aggregates for Basic vs All Lines and direct vs cushion vs multi-ball shots.
 
+## Physical-device test procedure
+
+1. Build/install using the README commands and start Logcat.
 
