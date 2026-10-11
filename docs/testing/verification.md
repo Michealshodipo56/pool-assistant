@@ -9,4 +9,7 @@ C:\msys64\ucrt64\bin\g++.exe -std=c++20 -Wall -Wextra -Werror -I .\app\src\main\
 .\build\native-tests\pool_engine_test.exe
 ```
 
+Result: `pool_engine_test: PASS` on 2026-10-10.
+
+Covered scenarios: direct equal-mass collision, cushion rebound direction, three-ball collision chain, and pocket entry.
 
