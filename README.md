@@ -16,3 +16,7 @@ A native Android application that captures a user-approved screen-sharing sessio
 
 This project does **not** automate taps or shots, use Accessibility, modify the game, access its process, bypass protections, upload frames, or claim unmeasured accuracy.
 
+## Build on Windows
+
+1. Install Android Studio from <https://developer.android.com/studio> and select Android SDK Platform 35, SDK Build-Tools 35, Platform-Tools, CMake 3.22.1, and NDK 30.0.16248370 in SDK Manager. Use JDK 17 for this Gradle 8.11.1 build.
+
