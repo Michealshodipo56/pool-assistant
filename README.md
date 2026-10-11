@@ -41,3 +41,7 @@ The phone-specific APK is produced at `app\build\outputs\apk\debug\app-arm64-v8a
 
 ## Phone setup and installation
 
+1. On the phone, open **Settings → About phone** and tap **Build number** seven times.
+2. Open **Developer options**, enable **USB debugging**, connect USB, and approve the computer fingerprint.
+3. From PowerShell:
+
