@@ -54,3 +54,7 @@ The phone-specific APK is produced at `app\build\outputs\apk\debug\app-arm64-v8a
 4. Launch the app, tap **Start Assistant**, grant notification/overlay permission, then approve Android's screen-capture dialog. Consent is required again after each stopped session.
 5. Open 8 Ball Pool, tap the floating `◎` bubble, choose **Mark Table Corners (in game)**, then tap the inside-cushion corners in this order: top-left, top-right, bottom-right, bottom-left. The guide closes after the fourth corner. Use Cancel/Undo to correct a mistake. The saved area is reused on the same screen layout; mark it again after a layout or resolution change.
 
+## Troubleshooting
+
+- No bubble: confirm **Display over other apps** is enabled for Pool Assistant.
+
