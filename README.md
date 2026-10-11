@@ -66,3 +66,7 @@ The phone-specific APK is produced at `app\build\outputs\apk\debug\app-arm64-v8a
 
 The portable C++ host tests and six JVM tests pass. The ARM64 debug APK is about 35 MB; the universal debug APK is about 153 MB. On an itel A665L (Android 13), the bubble, scrollable landscape menu, and live line rendering work, but the user reported incorrect trajectories. Screenshot-based instrumentation checks rejected a loading screen but found cue-ball and blue-table detection failures; further detector changes are built but not yet phone-tested. Accuracy, thermal behavior, and battery use are not verified. See [testing status](docs/testing/verification.md) for the exact checklist.
 
+## Documentation
+
+- [Architecture](docs/architecture/overview.md)
+
