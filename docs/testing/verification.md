@@ -53,4 +53,6 @@ The Android debug APK compiles, but physical behavior has not been verified here
 ## Remaining user actions
 
 - Install on the target phone and complete permission/lifecycle checks.
-
+- Capture labeled fixtures and calibrate each display/layout.
+- Run and publish the accuracy/latency evaluation with actual sample counts.
+- Decide whether spin estimation is required based on measured error.
