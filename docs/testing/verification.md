@@ -19,4 +19,7 @@ Covered scenarios: direct equal-mass collision, cushion rebound direction, three
 
 `assembleDebugAndroidTest` completed successfully, so the instrumentation test APK compiles and packages. `connectedDebugAndroidTest` has not run.
 
+On an itel A665L (Android API 33), ADB installed the app and instrumentation APKs. The user confirmed screen-capture consent, bubble appearance, menu open/close, landscape scrolling, and line rendering without leaving the game. The user also reported that the trajectories are wildly inaccurate. Screenshot instrumentation tests found the cause: on the brown table the detector labeled a yellow ball as the cue ball and admitted 112 false ball candidates; on the blue screenshot with the menu open it did not find a valid table/balls. The loading-screen false-positive rejection test passed. Candidate filtering and table-mask changes have built successfully but have not yet been installed and tested because wireless ADB disconnected. A historical capture-thread timestamp crash and missing OpenCV initialization were fixed earlier.
+
+## Not yet measured
 
