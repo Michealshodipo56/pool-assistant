@@ -26,4 +26,7 @@ On an itel A665L (Android API 33), ADB installed the app and instrumentation APK
 The supplied gameplay screenshots establish one brown-cloth fixture, but no labeled motion/shot sequence has been measured. Therefore:
 
 - Service restart, permission denial/revocation, backgrounding, orientation, cutout, and clean-shutdown behavior remain pending; installation and two instrumentation tests were completed on the phone.
+- Ball/table/cue detection precision and recall are unmeasured beyond the three diagnostic screenshots; two of those diagnostic cases failed before the latest filtering change. The new in-game four-corner table selection and cue-guide scoring still need a device test.
+- Basic/All Lines positional error, angular error, and outcome agreement have **0 test cases**.
+- Capture, render, and end-to-end performance on a phone are unmeasured.
 
