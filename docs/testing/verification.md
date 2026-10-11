@@ -2,4 +2,7 @@
 
 ## Automated verification completed on this PC
 
+Command:
+
+```powershell
 
