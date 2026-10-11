@@ -29,4 +29,8 @@ The supplied gameplay screenshots establish one brown-cloth fixture, but no labe
 - Ball/table/cue detection precision and recall are unmeasured beyond the three diagnostic screenshots; two of those diagnostic cases failed before the latest filtering change. The new in-game four-corner table selection and cue-guide scoring still need a device test.
 - Basic/All Lines positional error, angular error, and outcome agreement have **0 test cases**.
 - Capture, render, and end-to-end performance on a phone are unmeasured.
+- There is no accuracy percentage and no frame-rate claim.
+
+Use `testing/benchmarks/accuracy-template.csv`; keep separate rows/aggregates for Basic vs All Lines and direct vs cushion vs multi-ball shots.
+
 
