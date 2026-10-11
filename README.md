@@ -11,4 +11,8 @@ A native Android application that captures a user-approved screen-sharing sessio
 - Full-screen `FLAG_NOT_TOUCHABLE` trajectory layer, separate from interactive bubble/menu windows.
 - OpenCV HSV table segmentation, Hough-circle ball detection, cue-ball classification, Hough-line cue-direction estimation, temporal smoothing, confidence, and stale-frame invalidation.
 - Native C++20 multi-ball physics: rolling deceleration, equal-mass impacts, restitution, cushion rebounds, pockets, stopping thresholds, ordered events, event/time limits, Basic and All Lines policies.
+- In-game four-corner table marking; the temporary guide disappears after saving and detection is constrained to the marked table. App-screen calibration remains available.
+- Newest-frame-only asynchronous processing and latency/memory telemetry.
+
+This project does **not** automate taps or shots, use Accessibility, modify the game, access its process, bypass protections, upload frames, or claim unmeasured accuracy.
 
