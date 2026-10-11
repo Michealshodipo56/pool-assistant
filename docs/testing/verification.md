@@ -50,4 +50,7 @@ Status: **engineering alpha; not production-ready**.
 
 The Android debug APK compiles, but physical behavior has not been verified here. CV thresholds are intentionally conservative and need real fixtures. The independent physics model omits spin/throw and uses uncalibrated defaults. Distribution-policy and game-terms review is also required.
 
+## Remaining user actions
+
+- Install on the target phone and complete permission/lifecycle checks.
 
