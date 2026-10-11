@@ -57,4 +57,8 @@ The phone-specific APK is produced at `app\build\outputs\apk\debug\app-arm64-v8a
 ## Troubleshooting
 
 - No bubble: confirm **Display over other apps** is enabled for Pool Assistant.
+- Capture stops immediately: remove battery restrictions and re-run Start Assistant; Android does not allow reuse of an old capture token.
+- No lines: the app intentionally suppresses output if it cannot identify both a cue ball and a cue direction. Check Diagnostics and calibrate table bounds/ball radius.
+- Offset lines: check device rotation and avoid split-screen during the first test; record the screen resolution and insets for a fixture.
+- Service killed: inspect `adb logcat`; some OEMs require an explicit background/battery exemption.
 
