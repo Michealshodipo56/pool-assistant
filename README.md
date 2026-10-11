@@ -37,3 +37,7 @@ This project does **not** automate taps or shots, use Accessibility, modify the 
 
    The project-local JDK path above exists in this workspace. In a fresh checkout, point `JAVA_HOME` to any installed JDK 17. Run `.\gradlew.bat connectedDebugAndroidTest` after connecting an Android device.
 
+The phone-specific APK is produced at `app\build\outputs\apk\debug\app-arm64-v8a-debug.apk` for ARM64 phones. A larger `app-universal-debug.apk` is also built for general use.
+
+## Phone setup and installation
+
