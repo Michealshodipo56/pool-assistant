@@ -29,3 +29,7 @@ This project does **not** automate taps or shots, use Accessibility, modify the 
 
 4. Build and test:
 
+   ```powershell
+   $env:JAVA_HOME = (Resolve-Path .\.tooling\jdk17\jdk-17.0.20.1+1).Path
+   .\gradlew.bat testDebugUnitTest
+
