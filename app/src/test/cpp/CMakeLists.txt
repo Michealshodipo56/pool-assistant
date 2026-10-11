@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(pool_engine_tests LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+enable_testing()
+add_executable(pool_engine_test pool_engine_test.cpp ../../main/cpp/pool_engine.cpp)
+target_include_directories(pool_engine_test PRIVATE ../../main/cpp)
+add_test(NAME pool_engine_test COMMAND pool_engine_test)
